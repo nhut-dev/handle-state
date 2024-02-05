@@ -1,25 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
+import Toggle from './Components/state/Toggle.js';
 
 function App() {
+  // const name = "Facebook";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      {/* <FbList>
+        {name}
+      </FbList> */}
+      <Toggle></Toggle>
     </div>
-  );
+  )
 }
 
 export default App;

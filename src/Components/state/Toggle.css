@@ -1,0 +1,43 @@
+.toggle {
+    width: 100px;
+    height: 50px;
+    border-radius: 50px;
+    background-color: #ccc;
+    margin: 5px;
+    cursor: pointer;
+    padding: 5px;
+    transition: all 0.2s linear;
+}
+
+.sprinner{
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background-color: blueviolet;
+    cursor: pointer;
+    transition: all 0.2s linear;
+}
+
+.sprinner.active {
+    transform: translateX(50px);
+}
+
+.toggle.active{
+    background-color: rgb(70, 94, 201);
+}
+
+.toggle-control{
+    margin: 5px;
+    display: inline-block;
+    width: 100px;
+}
+
+.toggle-control > *{
+    cursor: pointer;
+}
+
+.toggle-off{
+    float: left;
+    margin-left: 10px;
+    margin-right: 30px;
+}
